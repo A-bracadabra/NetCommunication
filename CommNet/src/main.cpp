@@ -4,13 +4,13 @@ int main() {
     nodeRead();
     linkRead();
     dijkstra();
-    netPrint();
+    //netPrint();
     double ave1 = aveLen();
     //cout << endl << "aveLen = " << ave1;
     double max = max_min_weight;
     netChange();
     dijkstra();
-    netPrint();
+    //netPrint();
     //cout << endl << "aveLen = " << aveLen();
     cout << endl << "value = " << (aveLen()-ave1)/max << endl;
     net_map.clear();
