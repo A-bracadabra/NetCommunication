@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../class/node.h
+iostream
+-
+map
+-
+vector
+-
+
+../include/commNet.h
+node.h
+../include/node.h
+vector
+-
+math.h
+-
+
+/Users/lizzie/CLionProjects/CommNet/src/main.cpp
+commNet.h
+/Users/lizzie/CLionProjects/CommNet/src/commNet.h
+
+/Users/lizzie/CLionProjects/CommNet/src/netOperate.cpp
+commNet.h
+/Users/lizzie/CLionProjects/CommNet/src/commNet.h
+fstream
+-
+
