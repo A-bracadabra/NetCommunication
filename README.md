@@ -20,7 +20,7 @@
  |	 ├── english_ver_nodes
  |	 ├── english_ver_links
  |	 └── delete_nodes
- ├── cmake-build-debug	 #program file
+ ├── cmake-build-debug	   #program file
  └── CmakeLists.txt		 #program file
 ```
 
