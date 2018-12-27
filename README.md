@@ -1,4 +1,4 @@
-#通信网络节点评估算法
+# 通信网络节点评估算法
 
 ## 1 程序文件列表
 
@@ -21,10 +21,10 @@
  |	 ├── english_ver_links
  |	 └── delete_nodes
  ├── cmake-build-debug	#program file
- └── CmakeLists.txt		#program file
+ └── CmakeLists.txt		  #program file
 ```
 
-##2 注意事项 
+## 2 注意事项 
 
 - ```commNet.h```文件中，宏定义```netFilename```为节点名及节点权值文件，```linkFilename```为所有链路对应的节点名和链路权值，```delete_node_Filename```为需要评估的节点名文件；
 - 节点文件和链路文件需按照实例格式填写；
